@@ -1,0 +1,81 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.outterDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(19, 118, 133);
+    padding: 0px;
+    margin: 0px;
+}
+
+.logoDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 100px;
+    color: white;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.logo {
+    padding: 0px;
+    margin: 12px 0px;
+    transition: all 0.4s ease-in-out;
+}
+
+.logo:hover {
+    cursor: pointer;
+    color: rgb(101, 221, 221);
+}
+
+.menuDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 100px;
+    padding: 0px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    gap: 0px 10px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.mLDiv{
+    border-bottom: 5px solid transparent;
+    border-top: 5px solid transparent;
+    padding: 12px 20px;
+    margin: 0px;
+    width: 85px;
+    text-align: center;
+    transition: border-color 0.6s ease-in-out;
+}
+
+.mLDiv:hover{
+    border-bottom: 5px solid white;
+    border-top: 5px solid white;
+    cursor: pointer;
+}
+
+.menuList {
+    margin: 0px;
+    padding: 0px;
+}

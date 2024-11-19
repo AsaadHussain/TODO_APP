@@ -1,0 +1,148 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.footerDiv {
+    background-color: rgb(19, 118, 133);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px 0px;
+    margin: 0px;
+}
+
+
+
+
+.logoDivFooter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.logoFooter {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: white;
+    transition: color 0.6s ease-in-out;
+}
+.logoFooter:hover {
+    color: rgb(101, 221, 221);
+    cursor: pointer;
+}
+    
+
+.contentDivFooter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+}
+
+.aboutUsDivFooter {
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 30px 0px;
+    padding: 0px;
+}
+
+.aboutUs {
+    font-size: 15px;    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+
+
+.menuDivFooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    margin: 0px;
+    width: 90%;
+}
+
+
+
+.menuFooter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+
+
+.menuHeadingFooterDiv {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.menuHeadingFooter {
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: rgb(101, 221, 221);
+}
+
+
+
+
+.menuListFooter {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+.menuItemsFooter {
+    padding: 5px 0px 5px 0px;
+    margin: 0px;
+    transition: color 0.6s ease-in-out;
+}
+
+.menuItemsFooter:hover{
+    cursor: pointer;
+}
+
+.menuItemsFooter:hover .fa-brands,
+.menuItemsFooter:hover .fa-regular,
+.menuItemsFooter:hover .fa-solid {
+    color: rgb(101, 221, 221);
+}
+
+
+
+.fa-brands,
+.fa-solid,
+.fa-regular {
+    padding: 0px 20px 0px 0px;
+    transition: color 0.4s ease-in-out;
+}
